@@ -1,0 +1,60 @@
+.logo-eno {
+    max-height: 100px;
+    padding: 18px 2px 0px 9px;
+  }
+  .navArea {
+    justify-content: right;
+  }
+  .navstrt {
+    height: 50px;
+    margin-top: 0px;
+    padding-top: 0px;
+    width: 100% !important;
+  }
+  .tymfnt {
+    font-weight: bold;
+    font-size: 14px;
+    color: rgb(26, 82, 118);
+  }
+  .cile1 {
+    height: 40px;
+    width: 40px;
+  }
+  .txtAlign {
+    width: 9rem;
+  }
+  .div-padd {
+    padding-top: 28px;
+  }
+  .lin-hght {
+    line-height: 32px;
+  }
+  .mainCon {
+    border-bottom: 1px solid #8f8f8f;
+    height: 10rem;
+  }
+  .nameCon {
+    margin-top: 6px;
+  }
+  .logoutanc {
+    vertical-align: bottom;
+    margin: 7px 15px;
+    color: #337ab7;
+  }
+  /********** media query navbar **********/
+  @media screen and (min-width: 1366px) {
+    .logo-eno {
+      padding: 19px 0px 1px 9px;
+    }
+    .txtAlign {
+      width: 93px;
+    }
+    .secCon {
+      margin-top: 12px;
+    }
+  }
+  /* **************** */
+  
+  /*****************/
+  
+  

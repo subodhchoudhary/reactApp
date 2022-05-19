@@ -1,0 +1,319 @@
+nav.navbar-default.navbar.navbar-side {
+    display: none;
+  }
+  nav.navbar-default.bg-light.navBar {
+    display: none;
+  }
+  
+  #page-wrapper {
+    margin-left: 50px;
+  }
+  
+  .dash2 {
+    height: 40rem;
+    /*  width: 97%;*/
+    /* position: absolute;*/
+  }
+  
+  .dash22{
+    padding-bottom: 15px;
+  }
+  
+  .d2nav {
+    /*border: 1px solid;*/
+    /* height: 40rem; */
+    /* width: 40rem;*/
+    margin: 2rem auto;
+    /* transform: translate(100%, 10em);
+     position: absolute;*/
+  }
+  
+  .circule1 {
+    /*background: #e2dfe7;
+       border: 2px solid #9574cd;*/
+    /* position: absolute; */
+    height: 4em;
+    width: 11em;
+    /* border-radius: 20%; */
+    /*cursor: pointer;
+      transition: 0.3s;
+      margin: 5px 5px;*/
+    background-color: #fbeee0;
+    border: 2px solid #422800;
+    border-radius: 30px;
+    box-shadow: #422800 4px 4px 0 0;
+    color: #422800;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 0 18px;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin: 10px;
+    transition: 0.2s;
+  }
+  
+  .bg-transparent {
+    background-color: transparent !important;
+    border: none;
+    pointer-events: none;
+  }
+  
+  .das2head {
+    text-align: center;
+    font-weight: 600;
+  }
+  
+  .das2head h1 {
+    background: -webkit-linear-gradient(288deg, #fff, #8737a6, #fec600, #af0bfb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bolder;
+  }
+  
+  .das2head p {
+    font-size: 15px;
+    color: #000;
+    font-weight: 800;
+  }
+  
+  .dasnavbar {
+    width: 100%;
+  }
+  
+  .dasnavicon i {
+    font-size: 20px;
+    /* color: white; */
+    margin-right: 5px;
+  }
+  
+  .dasnavicon {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .dasnavicontxt span {
+    font-weight: 600;
+    font-size: 14px;
+    color: #4e19b5;
+  }
+  
+  .dasnavicontxt {
+    text-align: center;
+    padding-top: 2px;
+  }
+  
+  .circule1:hover {
+    /*box-shadow: 0px 0px 10px 5px  #a199c3;*/
+    /*   box-shadow: #422800 -4px -4px 0 0;
+      background: #aaf1ee;*/
+    box-shadow: #000000 -4px -4px 0 0;
+    background: #1a5276;
+    color: white;
+  }
+  
+  /* #page-inner {
+      background-image: unset;
+  }*/
+  
+  .dash2 img {
+    height: 100%;
+    width: 90%;
+  }
+  
+  .d2nav table {
+    margin: auto;
+  }
+  
+  .button-74 {
+    background-color: #fbeee0;
+    border: 2px solid #422800;
+    border-radius: 30px;
+    box-shadow: #422800 4px 4px 0 0;
+    color: #422800;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 0 18px;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  nav.navbar.navbar-default.navBar.bckgrnd {
+    /* display: none !important; */
+  }
+  nav.navbar.navbar-cls-top {
+    border-bottom: 1px solid #8f8f8f;
+  }
+  #page-inner2 {
+    min-height: 609px !important;
+  }
+  @media screen and (max-width: 1366px) {
+    #page-inner2 {
+      min-height: 500px !important;
+    }
+  }
+  
+  /* menubtn CSS start */
+  .loading {
+    --speed-of-animation: 0.9s;
+    --gap: 6px;
+    --first-color: #4c86f9;
+    --second-color: #49a84c;
+    --third-color: #f6bb02;
+    --fourth-color: #f6bb02;
+    --fifth-color: #2196f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    gap: 6px;
+    height: 100px;
+  }
+  
+  .loading span {
+    width: 4px;
+    height: 50px;
+    background: var(--first-color);
+    animation: scale var(--speed-of-animation) ease-in-out infinite;
+  }
+  
+  .loading span:nth-child(2) {
+    background: var(--second-color);
+    animation-delay: -0.8s;
+  }
+  
+  .loading span:nth-child(3) {
+    background: var(--third-color);
+    animation-delay: -0.7s;
+  }
+  
+  .loading span:nth-child(4) {
+    background: var(--fourth-color);
+    animation-delay: -0.6s;
+  }
+  
+  .loading span:nth-child(5) {
+    background: var(--fifth-color);
+    animation-delay: -0.5s;
+  }
+  
+  @keyframes scale {
+    0%,
+    40%,
+    100% {
+      transform: scaleY(0.05);
+    }
+  }
+  
+  .button_su {
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    border-radius: 3px;
+    /* margin-bottom: 30px; */
+    width: 90%;
+    box-shadow: rgb(0 0 0 / 9%) 0px 2px 1px, rgb(0 0 0 / 9%) 0px 4px 2px,
+      rgb(0 0 0 / 9%) 0px 8px 4px, rgb(0 0 0 / 9%) 0px 16px 8px,
+      rgb(0 0 0 / 9%) 0px 32px 16px;
+  }
+  
+  .su_button_circle {
+    background-color: red;
+    border-radius: 1000px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0px;
+    height: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    pointer-events: none;
+    /*animation-timing-function: ease-in-out; */
+  }
+  
+  .button_su_inner {
+    display: inline-block;
+    background: #4367af;
+    color: #f4f4f4;
+    font-size: 1.2rem;
+    font-weight: normal;
+    width: 100%;
+    text-align: center;
+    border-radius: 3px;
+    transition: 400ms;
+    text-decoration: none;
+    padding: 22px;
+    z-index: 100000;
+    cursor: pointer;
+  }
+  
+  .button_su_inner:hover {
+    color: #f4f4f4;
+  }
+  
+  .button_text_container {
+    position: relative;
+    z-index: 10000;
+  }
+  
+  .explode-circle {
+    animation: explode 0.5s forwards;
+  }
+  
+  .desplode-circle {
+    animation: desplode 0.5s forwards;
+  }
+  
+  @keyframes explode {
+    0% {
+      width: 0px;
+      height: 0px;
+      margin-left: 0px;
+      margin-top: 0px;
+      background-color: rgba(42, 53, 80, 0.2);
+    }
+  
+    100% {
+      width: 9000px;
+      height: 300px;
+      margin-left: -300px;
+      margin-top: -200px;
+      background-color: #2251afc4;
+    }
+  }
+  
+  @keyframes desplode {
+    0% {
+      width: 9000px;
+      height: 1000px;
+      margin-left: -500px;
+      margin-top: -200px;
+      background-color: #385facc4;
+    }
+  
+    100% {
+      width: 0px;
+      height: 0px;
+      margin-left: 0px;
+      margin-top: 0px;
+      background-color: #213a6dc4;
+    }
+  }
+  
+  .iconWraper i {
+    font-size: 1.4rem;
+    margin-right: 0.3rem;
+  }
+  /* menubtn CSS End */
+  

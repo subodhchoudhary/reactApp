@@ -1,0 +1,82 @@
+import React from "react";
+import NavBar from "../../Pages/Navbars/NavBar";
+import MasterNav from "../../Pages/Navbars/MasterNav";
+import Footer from "../../Pages/Footer";
+import { Link } from "react-router-dom";
+// import "../../../public/Common";
+
+function VwCompany() {
+  return (
+    <>
+      <NavBar></NavBar>
+      <MasterNav></MasterNav>
+      <div id="page-wrapper" className="page-wrapper-cls">
+        <div id="page-inner" className="mt-3 px-6 py-6">
+          <div className="x_panel boxshadow">
+            <div className="x_title">
+              <div className="row">
+                <div className="top-head">
+                  <div className="col-md-6 col-sm-6 col-xs-6">
+                    <div className="slope">
+                      <h2>Register Claim</h2>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="clearfix"></div>
+            </div>
+            <div className="x_content">
+              <br />
+              <div className="row form-group">
+                <div className="col-md-2">
+                  <label className="control-label from-txt">
+                  Quotation Number:
+                  </label>
+                </div>
+                <div className="col-md-3">
+                  <input type="text" className="form-control" />
+                </div>
+                <div className="col-md-1"></div>
+                <div className="col-md-2">
+                  <label className="control-label from-txt">
+                  Policy Number:<span className="text-danger">*</span>
+                  </label>
+                </div>
+                <div className="col-md-3">
+                  <input type="text" className="form-control" />
+                </div>
+                <div className="col-md-1"></div>
+              </div>
+              <div className="row">
+                <div className="col-md-12 text-center">
+                  <Link
+                    type="submit"
+                    name=""
+                    value="Search"
+                    id=""
+                    className="expdbutton btnSearch mr-2"
+                    to="/Validation"
+                  >
+                    Search
+                  </Link>
+                  <Link
+                    type="submit"
+                    name=""
+                    value="Back"
+                    id=""
+                    className="expdbutton btnback mr-2"
+                    to="/"
+                  >
+                    Back
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <Footer></Footer>
+    </>
+  );
+}
+export default VwCompany;

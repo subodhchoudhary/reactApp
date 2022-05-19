@@ -1,0 +1,284 @@
+/* New CSS */
+/* Broker portal login css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+  }
+  
+  .bg-img {
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .bg-img:after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 999;
+    text-align: center;
+    padding: 60px 32px;
+    width: 370px;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    box-shadow: -1px 4px 28px 0px rgba(0, 0, 0, 0.75);
+  }
+  
+  .content header {
+    color: white;
+    font-size: 33px;
+    font-weight: 600;
+    margin: 0 0 35px 0;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 11px;
+    line-height: 1.42857143;
+    color: #555555;
+    background-color: #fff !important;
+    background-image: none;
+    border: 1px solid #95c1eb !important;
+    border-radius: 10px !important;
+    -webkit-box-shadow: inset 2px 5px 7px 2px rgba(17, 17, 18, 0.11);
+    box-shadow: inset 2px 5px 7px 2px rgba(17, 17, 18, 0.11);
+    -webkit-transition: border-color ease-in-out 0.15s,
+      box-shadow ease-in-out 0.15s;
+    -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    -webkit-transition: border-color ease-in-out 0.15s,
+      -webkit-box-shadow ease-in-out 0.15s;
+    transition: border-color ease-in-out 0.15s,
+      -webkit-box-shadow ease-in-out 0.15s;
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s,
+      -webkit-box-shadow ease-in-out 0.15s;
+  }
+  
+  .field {
+    position: relative;
+    height: 45px;
+    width: 100%;
+    display: flex;
+    border-radius: 50px;
+  }
+  
+  .field1 {
+    margin-left: 39px;
+  }
+  
+  .field span {
+    width: 40px;
+    line-height: 45px;
+  }
+  
+  .field input {
+    height: 100%;
+    width: 76%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    border-radius: 50px;
+    font-weight: 400;
+  }
+  
+  .space {
+    margin-top: 16px;
+  }
+  
+  .show {
+    position: absolute;
+    right: 43px;
+    font-size: 13px;
+    font-weight: 700;
+    display: none;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .pass-key:valid ~ .show {
+    display: block;
+  }
+  
+  .pass {
+    text-align: left;
+    margin: 10px 0;
+  }
+  
+  .pass a {
+    color: white;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .pass:hover a {
+    text-decoration: underline;
+  }
+  
+  .field input[type="submit"] {
+    color: #fff;
+    background-color: #3479b7;
+    border: 1px solid #3479b7;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+    border-radius: 50px;
+  }
+  
+  .field input[type="submit"]:hover {
+    background-color: #135b9c;
+    border: 1px solid #135b9c;
+  }
+  
+  .login {
+    color: white;
+    margin: 20px 0;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .links {
+    display: flex;
+    cursor: pointer;
+    color: white;
+    margin: 0 0 20px 0;
+  }
+  
+  .facebook,
+  .instagram {
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    margin-left: 10px;
+  }
+  
+  .facebook {
+    margin-left: 0;
+    background: #4267b2;
+    border: 1px solid #3e61a8;
+  }
+  
+  .instagram {
+    background: #e1306c;
+    border: 1px solid #df2060;
+  }
+  
+  .facebook:hover {
+    background: #3e61a8;
+  }
+  
+  .instagram:hover {
+    background: #df2060;
+  }
+  
+  .links i {
+    font-size: 17px;
+  }
+  
+  i span {
+    margin-left: 8px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .signup {
+    font-size: 15px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .signup a {
+    color: #3498db;
+    text-decoration: none;
+  }
+  
+  .signup a:hover {
+    text-decoration: underline;
+  }
+  
+  .text-blue {
+    color: #2f5c94 !important;
+  }
+  
+  input:-webkit-autofill,
+  input:-webkit-autofill:hover,
+  input:-webkit-autofill:focus,
+  textarea:-webkit-autofill,
+  textarea:-webkit-autofill:hover,
+  textarea:-webkit-autofill:focus,
+  select:-webkit-autofill,
+  select:-webkit-autofill:hover,
+  select:-webkit-autofill:focus {
+    transition: background-color 5000s ease-in-out 0s;
+  }
+  
+  /*Media Queries*/
+  /*Laptop*/
+  @media only screen and (min-width: 1200px) and (max-width: 1600px) {
+    .content {
+      height: 433px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      z-index: 999;
+      text-align: center;
+      padding: 20px;
+      width: 370px;
+      transform: translate(-50%, -50%);
+      background: #fff;
+      box-shadow: -1px 4px 28px 0px rgb(0 0 0 / 75%);
+      border-radius: 27px;
+    }
+  }
+  
+  /*Large*/
+  @media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .content {
+      padding: 100px 50px 100px 50px;
+      width: 550px;
+      height: 768px;
+    }
+  }
+  
+  /*Medium*/
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .content {
+      padding: 60px 35px 60px 30px;
+      width: 400px;
+    }
+  }
+  
+  /*Small*/
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+  }
+  
+  /*Extra Sm*/
+  @media (max-width: 767px) {
+    .content {
+      padding: 30px 15px 30px 15px;
+      width: 300px;
+    }
+  }
+  /*End Media Queries*/
+  

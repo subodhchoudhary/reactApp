@@ -1,0 +1,19 @@
+﻿.inputBox {
+    font-size: medium;
+    padding: 5px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 2px;
+    margin-bottom: 0px;
+    color: black;
+    background-color: #F5F5F5;
+}
+.invalidAlert {
+    border: 2px solid red;
+}
+.alertme {    
+    font-size: 0.9375rem;
+    color:red;
+    letter-spacing: 0.0275rem;
+    margin: 0.125rem 0.875rem;
+}

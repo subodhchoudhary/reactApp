@@ -1,0 +1,170 @@
+﻿
+
+.bodyProperty {
+    background-color: #808080;
+    opacity: 0.95;
+    width: 100%;
+    height: 100%;
+    position: fixed; /* Stay in place */
+    z-index: 1;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popUp {
+    display: block;
+    color: #6C757D;
+    background-color: #ffffff;
+    /* margin-left: 10%;
+    margin-right: 10%;*/
+    margin-top: 5%;
+    margin-bottom: 25%;
+    width: auto;
+    max-width: 98%;    
+    /*height: auto;*/
+    /* margin-left: auto;
+    margin-right: auto;*/
+    border-radius: 5px;
+    padding-bottom:15px;
+}
+
+.popUpName {
+    color:black;
+    font-weight: 900;
+    font-size: 1.25rem;
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 30px;
+    font-family: 'Lucida Sans Unicode';
+    background-color: inherit;
+    border: none;
+    margin-right: 10px;
+    margin-top: -15px;
+}
+
+    .close:hover,
+    .close:focus {
+        color: #000;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+.messageAlert {
+    font-weight: 400;
+    font-size: 1rem;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #dee2e6;
+    overflow-x: auto;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;*/
+}
+
+.messageAlertDivBtns {
+    font-weight: 400;
+    font-size: 1rem;
+    /*display: flex;
+    justify-content: center;
+    align-items: center;*/
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.messageAlertBtnClose {
+    border-radius: 5px;
+    padding-top: 11px;
+    padding-bottom: 13px;
+    width: 64.38px;
+    border: none;
+    font-size: medium;
+    font-weight: 500;
+    background-color: #3479b7;
+    color: #ffffff;
+    float: left;
+    margin-left: 47%;
+}
+
+.messageAlertBtnSave {
+    border-radius: 5px;
+    padding-top: 11px;
+    padding-bottom: 13px;
+    width: 128px;
+    border: none;
+    font-size: medium;
+    font-weight: 500;
+    background-color: #0D6EFD;
+    border-color: #0d6efd;
+    color: #ffffff;
+}
+
+    .messageAlertBtnSave:hover {
+        cursor: pointer;
+        transition: color .15s;
+        background-color: #0d6efdcc;
+    }
+   
+
+.messageAlertBtnClose:hover {
+    cursor: pointer;
+    transition: color .15s;
+    background-color: #6c757dcf;
+}
+
+
+
+.viewPopUpTable {
+    border-radius: 50px;
+    
+}
+
+    .viewPopUpTable thead {
+        height: 35px;
+        text-align: center;
+        color: black;
+        border-bottom: 2px solid #dee2e6;
+        background-color: #3479b7;
+    }
+
+        .viewPopUpTable thead tr th {
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+/*style= {{ borderBottom: '2px solid #dee2e6', height: '30px', backgroundColor: 'red', borderRadius: '5px' }}*/
+
+@media screen and (max-width: 1150px) {
+    .popUp {
+        margin-left: 30%;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .popUp {
+        margin-left: 20%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .popUp {
+        margin-left: 10%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .popUp {
+        margin-left: 0%;
+    }
+}
